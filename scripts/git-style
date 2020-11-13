@@ -1,8 +1,8 @@
 function git-style {
   if [ -z "$1" ]
     then
-      git commit -m 'style: ' -e
+      git commit -S -m 'style: ' -e
     else
-      git commit -m "style: $1"
+      git commit -S -m "style: $1"
   fi
 }

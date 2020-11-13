@@ -1,8 +1,8 @@
 function git-localize {
   if [ -z "$1" ]
     then
-      git commit -m 'localize: ' -e
+      git commit -S -m 'localize: ' -e
     else
-      git commit -m "localize: $1"
+      git commit -S -m "localize: $1"
   fi
 }

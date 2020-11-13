@@ -1,8 +1,8 @@
 function git-fix {
   if [ -z "$1" ]
     then
-      git commit -m 'fix: ' -e
+      git commit -S -m 'fix: ' -e
     else
-      git commit -m "fix: $1"
+      git commit -S -m "fix: $1"
   fi
 }

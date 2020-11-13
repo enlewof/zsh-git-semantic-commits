@@ -1,8 +1,8 @@
 function git-refactor {
   if [ -z "$1" ]
     then
-      git commit -m 'refactor: ' -e
+      git commit -S -m 'refactor: ' -e
     else
-      git commit -m "refactor: $1"
+      git commit -S -m "refactor: $1"
   fi
 }
