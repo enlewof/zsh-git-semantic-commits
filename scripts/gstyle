@@ -1,4 +1,4 @@
-function git-style {
+function gstyle {
   if [ -z "$1" ]
     then
       git commit -S -m 'style: ' -e

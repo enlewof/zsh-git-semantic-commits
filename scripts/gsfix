@@ -1,4 +1,4 @@
-function git-fix {
+function gsfix {
   if [ -z "$1" ]
     then
       git commit -S -m 'fix: ' -e

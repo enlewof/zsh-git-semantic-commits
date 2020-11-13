@@ -1,4 +1,4 @@
-function git-post {
+function gspost {
   if [ -z "$1" ]
     then
       git commit -S -m 'post: ' -e

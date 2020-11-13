@@ -1,4 +1,4 @@
-function git-chore {
+function gschore {
   if [ -z "$1" ]
     then
       git commit -S -m 'chore: ' -e

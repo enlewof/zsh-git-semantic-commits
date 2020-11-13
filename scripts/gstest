@@ -1,4 +1,4 @@
-function git-test {
+function gstest {
   if [ -z "$1" ]
     then
       git commit -S -m 'test: ' -e

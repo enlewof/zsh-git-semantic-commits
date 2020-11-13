@@ -1,4 +1,4 @@
-function git-docs {
+function gsdocs {
   if [ -z "$1" ]
     then
       git commit -S -m 'docs: ' -e
