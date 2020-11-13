@@ -24,7 +24,7 @@ There are 8 new Git commands now.
 
 New command -> what it does:
 
-Commands added by (@alexrochas)[https://github.com/alexrochas]
+Commands added by [@alexrochas](https://github.com/alexrochas)
 
 -  `git feat "commit-message-here"` -> `git commit -m 'feat: commit-message-here'`
 -  `git docs "commit-message-here"` -> `git commit -m 'docs: commit-message-here'`
@@ -35,7 +35,7 @@ Commands added by (@alexrochas)[https://github.com/alexrochas]
 -  `git test "commit-message-here"` -> `git commit -m 'test: commit-message-here'`
 -  `git localize "commit-message-here"` -> `git commit -m 'localize: commit-message-here'`
 
-Commands added by (@Kenan7)[https://github.com/Kenan7]
+Commands added by [@Kenan7](https://github.com/Kenan7)
 
 -  `gsfeat "commit-message-here"` -> `git commit -S -m 'feat: commit-message-here'`
 -  `gsdocs "commit-message-here"` -> `git commit -S -m 'docs: commit-message-here'`
