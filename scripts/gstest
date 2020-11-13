@@ -1,0 +1,8 @@
+function git-test {
+  if [ -z "$1" ]
+    then
+      git commit -S -m 'test: ' -e
+    else
+      git commit -S -m "test: $1"
+  fi
+}

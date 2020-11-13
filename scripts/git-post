@@ -1,8 +1,8 @@
 function git-post {
   if [ -z "$1" ]
     then
-      git commit -S -m 'post: ' -e
+      git commit -m 'post: ' -e
     else
-      git commit -S -m "post: $1"
+      git commit -m "post: $1"
   fi
 }

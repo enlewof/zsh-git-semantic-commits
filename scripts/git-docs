@@ -1,8 +1,8 @@
 function git-docs {
   if [ -z "$1" ]
     then
-      git commit -S -m 'docs: ' -e
+      git commit -m 'docs: ' -e
     else
-      git commit -S -m "docs: $1"
+      git commit -m "docs: $1"
   fi
 }
