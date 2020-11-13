@@ -20,20 +20,11 @@ print 'source ~/src/git-semantic-commits/git-semantic-commits.plugin.zsh' >> ~/.
 
 ## Usage
 
-### UPDATED
+There are 8 new Git commands now.
 
-Commands added by @Kenan7
+New command -> what it does:
 
--  `gsfeat "commit-message-here"` -> `git commit -S -m 'feat: commit-message-here'`
--  `gsdocs "commit-message-here"` -> `git commit -S -m 'docs: commit-message-here'`
--  `gschore "commit-message-here"` -> `git commit -S -m 'chore: commit-message-here'`
--  `gsfix "commit-message-here"` -> `git commit -S -m 'fix: commit-message-here'`
--  `gsrft "commit-message-here"` -> `git commit -S -m 'refactor: commit-message-here'`
--  `gstyle "commit-message-here"` -> `git commit -S -m 'style: commit-message-here'`
--  `gstest "commit-message-here"` -> `git commit -S -m 'test: commit-message-here'`
--  `gslocalize "commit-message-here"` -> `git commit -S -m 'localize: commit-message-here'`
-
-Commands added by @alexrochas
+Commands added by (@alexrochas)[https://github.com/alexrochas]
 
 -  `git feat "commit-message-here"` -> `git commit -m 'feat: commit-message-here'`
 -  `git docs "commit-message-here"` -> `git commit -m 'docs: commit-message-here'`
@@ -43,6 +34,17 @@ Commands added by @alexrochas
 -  `git style "commit-message-here"` -> `git commit -m 'style: commit-message-here'`
 -  `git test "commit-message-here"` -> `git commit -m 'test: commit-message-here'`
 -  `git localize "commit-message-here"` -> `git commit -m 'localize: commit-message-here'`
+
+Commands added by (@Kenan7)[https://github.com/Kenan7]
+
+-  `gsfeat "commit-message-here"` -> `git commit -S -m 'feat: commit-message-here'`
+-  `gsdocs "commit-message-here"` -> `git commit -S -m 'docs: commit-message-here'`
+-  `gschore "commit-message-here"` -> `git commit -S -m 'chore: commit-message-here'`
+-  `gsfix "commit-message-here"` -> `git commit -S -m 'fix: commit-message-here'`
+-  `gsrft "commit-message-here"` -> `git commit -S -m 'refactor: commit-message-here'`
+-  `gstyle "commit-message-here"` -> `git commit -S -m 'style: commit-message-here'`
+-  `gstest "commit-message-here"` -> `git commit -S -m 'test: commit-message-here'`
+-  `gslocalize "commit-message-here"` -> `git commit -S -m 'localize: commit-message-here'`
 
 If you would still like to use your text editor for your commit messages
 you can omit the message, and do your commit message in your editor.
